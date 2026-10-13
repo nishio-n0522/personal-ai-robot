@@ -1,0 +1,22 @@
+# Private references, receipts, local validation output
+.temp/
+references/
+evidence/
+*.log
+.env
+.env.*
+*.pem
+*.key
+node_modules/
+.cache/
+coverage/
+test-results/
+playwright-report/
+.DS_Store
+Thumbs.db
+# Historical validation scripts target older prototypes; retain locally only.
+scripts/*.mjs
+!scripts/launch.mjs
+!scripts/robot-check.mjs
+!scripts/convergence100-check.mjs
+!scripts/highlights-check.mjs
